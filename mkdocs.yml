@@ -1,0 +1,70 @@
+site_name: Circles Docs
+site_description: Documentation for people who use Circles
+site_url: https://docs.circles.care/
+repo_url: https://github.com/Vorski-Imagineering/circles-pub
+repo_name: Vorski-Imagineering/circles-pub
+docs_dir: site_src
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - navigation.sections
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+# Mirrors docs/pub/README.md upstream: circle/ for everyone, host/ for hosts,
+# admin/ for site admins. Keep this in step when pages are added there.
+nav:
+  - Home: index.md
+  - In a circle:
+      - Joining a circle: circle/joining-a-circle.md
+      - What you are looking at: circle/the-circle.md
+      - Speaking and the centre: circle/speaking-and-the-centre.md
+      - Sound and camera: circle/sound-and-camera.md
+      - Rounds: circle/rounds.md
+      - Reactions: circle/reactions.md
+      - When something goes wrong: circle/when-something-goes-wrong.md
+  - Hosting:
+      - Hosting basics: host/hosting-basics.md
+      - Creating a room: host/creating-a-room.md
+      - Choosing a scene: host/choosing-a-scene.md
+      - Personalising a room: host/personalising-a-room.md
+      - Inviting people: host/inviting-people.md
+      - Running a round: host/running-a-round.md
+      - Ending a circle: host/ending-a-circle.md
+      - Your host profile: host/your-host-profile.md
+  - Administration:
+      - Admin overview: admin/admin-overview.md
+      - People and access: admin/people-and-access.md
+      - Scene library: admin/scene-library.md
+      - Scene categories: admin/scene-categories.md
+      - Rooms administration: admin/rooms-administration.md
+      - Branding and settings: admin/branding-and-settings.md
+      - Usage and reports: admin/usage-and-reports.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences
