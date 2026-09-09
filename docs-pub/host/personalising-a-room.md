@@ -35,7 +35,9 @@ than half-hidden behind old images.
 ## Which to use
 
 Change the **scene** when the look should be reusable — other hosts will want it
-too, and it belongs in the library. Ask an admin.
+too, and it belongs in the library. Ask an admin: once your room looks right,
+they can save its look straight into the library from the Room Library page,
+without retyping anything. Your room keeps its own settings either way.
 
 Use **personalisation** when the media is specific to this one group and would
 only clutter the library.

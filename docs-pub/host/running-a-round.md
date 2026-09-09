@@ -20,12 +20,12 @@ whole room.
 
 | Option | Per-turn limit |
 |---|---|
-| ⚡ | 7 seconds — a lightning round for one word or one breath each |
+| Lightning bolt | 7 seconds — a lightning round for one word or one breath each |
 | 30s | 30 seconds |
 | 1m | 1 minute |
 | 2m | 2 minutes |
 | 5m | 5 minutes |
-| ∞ | No limit — each turn runs until that person ends it |
+| Infinity | No limit — each turn runs until that person ends it |
 
 The limit applies per turn, not to the round overall. With a limit, the speaker
 sees a countdown around their circle; without one, the round lasts as long as it
