@@ -12,25 +12,23 @@ An admin invites you. See [People and access](../admin/people-and-access.md).
 
 ## Getting into your room
 
-Two ways in, and they behave differently:
+While you are signed in, you arrive as the host with host controls either
+way: by opening `/<room-name>`, or through the participant link (with `?key=`).
 
-- **Signed in, no key** — open `/<room-name>`. You arrive as the host, with host
-  controls.
-- **Through a participant link** (with `?key=`) — you arrive as an ordinary
-  participant, even though you are the host. The menu then offers **Go Host
-  Mode**, which drops the key from the URL and reloads you in as host.
-
-This is useful deliberately: you can see exactly what your participants see.
+To see exactly what your participants see, open the participant link in a
+private window, where you are not signed in.
 
 ## The room menu
 
 Everyone gets **Settings** (back to the device screen) and the bug report link.
+In a short browser window the buttons along the top of the menu shrink to a row
+of icons; hover one to see its name.
 As host you also get:
 
 - **Join URL** — copies the participant link. See
   [Inviting people](inviting-people.md).
 - **Room Admin** — opens that room's settings page in a new tab.
-- **Round Mode** — start or stop a round. See
+- **Start round** / **Stop round**, with the round length beside it. See
   [Running a round](running-a-round.md).
 - **The End** — finishes the circle for everyone. See
   [Ending a circle](ending-a-circle.md).

@@ -9,8 +9,16 @@ page is the controls.
 
 ## Starting one
 
-Open the room menu, find **Round Mode**, choose a length, and start. Only hosts
-see this.
+Open the room menu and press **Start round**. Only hosts see it. The round uses
+the length shown just to its left — 7 seconds, with a lightning bolt, until you
+change it.
+
+To change the length first, press that length. A dial
+opens: turn it by dragging, tap one of the circles around it, or use the arrow
+keys. Choosing a length does not start anything. Press the button in the middle
+of the dial to start with that length, or press Escape (or click away) to close
+the dial and keep the length for the Start round button. The length stays chosen
+until you leave the room.
 
 Everyone present at that moment is placed in one queue, oldest joiner first, and
 the first person takes the centre. There is no opting in — a round includes the
@@ -18,13 +26,15 @@ whole room.
 
 ## Choosing a length
 
+The circles on the dial fill up as the length grows:
+
 | Option | Per-turn limit |
 |---|---|
-| Lightning bolt | 7 seconds — a lightning round for one word or one breath each |
-| 30s | 30 seconds |
-| 1m | 1 minute |
-| 2m | 2 minutes |
-| 5m | 5 minutes |
+| Lightning bolt (7s) | 7 seconds — a lightning round for one word or one breath each |
+| Quarter-filled circle (30s) | 30 seconds |
+| Half-filled circle (1m) | 1 minute |
+| Three-quarter circle (2m) | 2 minutes |
+| Full circle (5m) | 5 minutes |
 | Infinity | No limit — each turn runs until that person ends it |
 
 The limit applies per turn, not to the round overall. With a limit, the speaker
@@ -47,6 +57,7 @@ queue are simply skipped.
 A round ends on its own when the last person has spoken, and the room returns to
 normal conversation.
 
-To stop early, use the same **Round Mode** control to abort. That empties the
+To stop early, open the room menu and press **Stop round**, where Start round
+was. That empties the
 queue and returns everyone to normal immediately. People who have not spoken do
 not get their turn, so say something before you do it.
